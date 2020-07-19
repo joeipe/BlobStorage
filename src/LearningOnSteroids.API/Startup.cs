@@ -29,7 +29,7 @@ namespace LearningOnSteroids.API
         {
             services.AddControllers();
 
-            services.AddScoped<ILearningVideoStorage>(s => new LearningVideoStorage("DefaultEndpointsProtocol=https;AccountName=learningonsteroids;AccountKey=4/ccFAC3dn4ms/ciY1EWhNrXuMhMSqhYGfWfrY2glxO18EJ/bHyaybEbOViRj1wT+hZ5BKCzyqi4KPDAmoDhHg==;EndpointSuffix=core.windows.net"));
+            services.AddScoped<ILearningVideoStorage>(s => new LearningVideoStorage("DefaultEndpointsProtocol=https;AccountName=;AccountKey=;EndpointSuffix=core.windows.net"));
 
             services.AddSwaggerGen(c =>
             {
